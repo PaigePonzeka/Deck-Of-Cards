@@ -1,0 +1,2 @@
+A Simple deck of cards implemented with Xcode and Objective C.
+Supports a Deck of Card Objects, Shuffles, gets cards information stored in an array.

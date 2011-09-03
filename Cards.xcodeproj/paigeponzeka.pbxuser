@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 289DB118130797FF00ECC142 /* Cards */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* Cards */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* Cards */,
+		);
+		codeSenseManager = 289DB11D1307981E00ECC142 /* Code sense */;
+		executables = (
+			289DB118130797FF00ECC142 /* Cards */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					893,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320807061;
+			PBXWorkspaceStateSaveDate = 320807061;
+		};
+		perUserProjectItems = {
+			289DB1E31307B36E00ECC142 /* PBXTextBookmark */ = 289DB1E31307B36E00ECC142 /* PBXTextBookmark */;
+			28F1EF0C131FE6510007F729 /* PBXTextBookmark */ = 28F1EF0C131FE6510007F729 /* PBXTextBookmark */;
+			28F1EF0D131FE6510007F729 /* PBXTextBookmark */ = 28F1EF0D131FE6510007F729 /* PBXTextBookmark */;
+			28F1EF0E131FE6510007F729 /* PBXTextBookmark */ = 28F1EF0E131FE6510007F729 /* PBXTextBookmark */;
+			28F1EF0F131FE6510007F729 /* PBXTextBookmark */ = 28F1EF0F131FE6510007F729 /* PBXTextBookmark */;
+			28F1EF10131FE6510007F729 /* PBXTextBookmark */ = 28F1EF10131FE6510007F729 /* PBXTextBookmark */;
+			28F1EF11131FE6510007F729 /* PBXTextBookmark */ = 28F1EF11131FE6510007F729 /* PBXTextBookmark */;
+			28F1EF12131FE6510007F729 /* PBXTextBookmark */ = 28F1EF12131FE6510007F729 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 289DB11C1307981E00ECC142 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* Cards.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 1378}}";
+			sepNavSelRange = "{1504, 0}";
+			sepNavVisRange = "{1053, 459}";
+			sepNavWindowFrame = "{{199, 136}, {553, 569}}";
+		};
+	};
+	289DB118130797FF00ECC142 /* Cards */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Cards;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	289DB11C1307981E00ECC142 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	289DB11D1307981E00ECC142 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	289DB11F1307984400ECC142 /* Cards.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 546}}";
+			sepNavSelRange = "{718, 13}";
+			sepNavVisRange = "{0, 734}";
+		};
+	};
+	289DB15013079FD700ECC142 /* Deck.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 511}}";
+			sepNavSelRange = "{599, 0}";
+			sepNavVisRange = "{0, 645}";
+		};
+	};
+	289DB15113079FD700ECC142 /* Deck.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 1495}}";
+			sepNavSelRange = "{873, 0}";
+			sepNavVisRange = "{135, 771}";
+		};
+	};
+	289DB1831307ACC300ECC142 /* Test.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 511}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 181}";
+		};
+	};
+	289DB1841307ACC300ECC142 /* Test.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1071, 511}}";
+			sepNavSelRange = "{460, 37}";
+			sepNavVisRange = "{0, 539}";
+		};
+	};
+	289DB1E31307B36E00ECC142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* Cards_Prefix.pch */;
+		name = "Cards_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 152;
+		vrLoc = 0;
+	};
+	28F1EF0C131FE6510007F729 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289DB11F1307984400ECC142 /* Cards.h */;
+		name = "Cards.h: 39";
+		rLen = 13;
+		rLoc = 718;
+		rType = 0;
+		vrLen = 734;
+		vrLoc = 0;
+	};
+	28F1EF0D131FE6510007F729 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* Cards.m */;
+		name = "Cards.m: 103";
+		rLen = 0;
+		rLoc = 1504;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 1053;
+	};
+	28F1EF0E131FE6510007F729 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289DB1841307ACC300ECC142 /* Test.m */;
+		name = "Test.m: 18";
+		rLen = 37;
+		rLoc = 460;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	28F1EF0F131FE6510007F729 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289DB15013079FD700ECC142 /* Deck.h */;
+		name = "Deck.h: 33";
+		rLen = 0;
+		rLoc = 599;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 0;
+	};
+	28F1EF10131FE6510007F729 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289DB15113079FD700ECC142 /* Deck.m */;
+		name = "Deck.m: 46";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 135;
+	};
+	28F1EF11131FE6510007F729 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289DB1831307ACC300ECC142 /* Test.h */;
+		name = "Test.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 181;
+		vrLoc = 0;
+	};
+	28F1EF12131FE6510007F729 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289DB1831307ACC300ECC142 /* Test.h */;
+		name = "Test.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 181;
+		vrLoc = 0;
+	};
+	32A70AAB03705E1F00C91783 /* Cards_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {645, 405}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 152}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* Cards */ = {
+		activeExec = 0;
+		executables = (
+			289DB118130797FF00ECC142 /* Cards */,
+		);
+	};
+}

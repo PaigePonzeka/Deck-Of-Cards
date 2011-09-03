@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Cards' target in the 'Cards' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

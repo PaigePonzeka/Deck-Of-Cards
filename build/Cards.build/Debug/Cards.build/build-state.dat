@@ -1,0 +1,175 @@
+TCards
+v7
+r0
+t320809487.341829
+cCheck dependencies
+cProcessPCH /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cards_Prefix-bgcfavopixleagbezgulhswshkhm/Cards_Prefix.pch.gch Cards_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Cards.o /Users/paigeponzeka/Documents/Cards/Cards.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Deck.o /Users/paigeponzeka/Documents/Cards/Deck.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Test.o /Users/paigeponzeka/Documents/Cards/Test.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/paigeponzeka/Documents/Cards/build/Debug/Cards normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D3F9CA700000000000000EE
+t1296014503
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CD5C66A0000000000B3E910
+t1289078378
+s11790608
+
+N/Users/paigeponzeka/Documents/Cards/Cards.h
+c000000004D6EF02A00000000000002E3
+t1299116074
+s739
+i"Cards.h"
+i<Foundation/Foundation.h>
+
+N/Users/paigeponzeka/Documents/Cards/Cards.m
+c000000004D6EEFC500000000000005E8
+t1299115973
+s1512
+i"Cards.h"
+
+N/Users/paigeponzeka/Documents/Cards/Cards_Prefix.pch
+c000000004D57607F0000000000000098
+t1297571967
+s152
+i<Foundation/Foundation.h>
+
+N/Users/paigeponzeka/Documents/Cards/Deck.h
+c000000004D6EEA3D0000000000000285
+t1299114557
+s645
+i<Cocoa/Cocoa.h>
+i"Deck.h"
+i"Cards.h"
+i<stdlib.h>
+
+N/Users/paigeponzeka/Documents/Cards/Deck.m
+c000000004D6EF3DF0000000000000840
+t1299117023
+s2112
+i"Deck.h"
+
+N/Users/paigeponzeka/Documents/Cards/Test.h
+c000000004D57754300000000000000B5
+t1297577283
+s181
+i<Cocoa/Cocoa.h>
+
+N/Users/paigeponzeka/Documents/Cards/Test.m
+c000000004D6EF024000000000000021B
+t1299116068
+s539
+i"Cards.h"
+i"Deck.h"
+i<Foundation/Foundation.h>
+
+N/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Cards.LinkFileList
+c000000004D5775600000000000000130
+t1297577312
+s304
+
+N/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Cards.o
+t1299116074
+s13944
+
+N/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Deck.o
+t1299116687
+s15848
+
+N/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Test.o
+t1299116075
+s7824
+
+N/Users/paigeponzeka/Documents/Cards/build/Debug/Cards
+t1299116687
+s16896
+
+N/var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cards_Prefix-bgcfavopixleagbezgulhswshkhm/Cards_Prefix.pch.gch
+t1297572473
+s41429776
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320809486#320809486#0(0"0(0#1#0"8609272032#0"0#
+
+CCompileC build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Cards.o /Users/paigeponzeka/Documents/Cards/Cards.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320808874.701952
+e320808874.849622
+r1
+xCompileC
+xbuild/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Cards.o
+x/Users/paigeponzeka/Documents/Cards/Cards.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/paigeponzeka/Documents/Cards/Cards.m320808874#320808874#0(0"0(0#0#43"/Users/paigeponzeka/Documents/Cards/Cards.m8611863648#1379"    cd /Users/paigeponzeka/Documents/Cards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-generated-files.hmap -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-own-target-headers.hmap -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-all-target-headers.hmap -iquote /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-project-headers.hmap -F/Users/paigeponzeka/Documents/Cards/build/Debug -I/Users/paigeponzeka/Documents/Cards/build/Debug/include -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/DerivedSources/x86_64 -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/DerivedSources -include /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cards_Prefix-bgcfavopixleagbezgulhswshkhm/Cards_Prefix.pch -c /Users/paigeponzeka/Documents/Cards/Cards.m -o /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Cards.o0#
+
+CCompileC build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Deck.o /Users/paigeponzeka/Documents/Cards/Deck.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320809486.774692
+e320809487.318067
+r1
+xCompileC
+xbuild/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Deck.o
+x/Users/paigeponzeka/Documents/Cards/Deck.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/paigeponzeka/Documents/Cards/Deck.m320809486#320809487#0(0"0(0#0#42"/Users/paigeponzeka/Documents/Cards/Deck.m8609568736#1377"    cd /Users/paigeponzeka/Documents/Cards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-generated-files.hmap -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-own-target-headers.hmap -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-all-target-headers.hmap -iquote /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-project-headers.hmap -F/Users/paigeponzeka/Documents/Cards/build/Debug -I/Users/paigeponzeka/Documents/Cards/build/Debug/include -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/DerivedSources/x86_64 -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/DerivedSources -include /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cards_Prefix-bgcfavopixleagbezgulhswshkhm/Cards_Prefix.pch -c /Users/paigeponzeka/Documents/Cards/Deck.m -o /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Deck.o0#
+
+CCompileC build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Test.o /Users/paigeponzeka/Documents/Cards/Test.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320808874.849733
+e320808875.187458
+r1
+xCompileC
+xbuild/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Test.o
+x/Users/paigeponzeka/Documents/Cards/Test.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/paigeponzeka/Documents/Cards/Test.m320808874#320808875#0(0"0(0#0#42"/Users/paigeponzeka/Documents/Cards/Test.m8612602368#1377"    cd /Users/paigeponzeka/Documents/Cards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-generated-files.hmap -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-own-target-headers.hmap -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-all-target-headers.hmap -iquote /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-project-headers.hmap -F/Users/paigeponzeka/Documents/Cards/build/Debug -I/Users/paigeponzeka/Documents/Cards/build/Debug/include -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/DerivedSources/x86_64 -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/DerivedSources -include /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cards_Prefix-bgcfavopixleagbezgulhswshkhm/Cards_Prefix.pch -c /Users/paigeponzeka/Documents/Cards/Test.m -o /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Test.o0#
+
+CLd /Users/paigeponzeka/Documents/Cards/build/Debug/Cards normal x86_64
+s320809487.318169
+e320809487.341776
+r1
+xLd
+x/Users/paigeponzeka/Documents/Cards/build/Debug/Cards
+xnormal
+xx86_64
+lSLF07#2@58"Link /Users/paigeponzeka/Documents/Cards/build/Debug/Cards320809487#320809487#0(0"0(0#0#0"8607625952#497"    cd /Users/paigeponzeka/Documents/Cards    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/paigeponzeka/Documents/Cards/build/Debug -F/Users/paigeponzeka/Documents/Cards/build/Debug -filelist /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Objects-normal/x86_64/Cards.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/paigeponzeka/Documents/Cards/build/Debug/Cards0#
+
+CProcessPCH /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cards_Prefix-bgcfavopixleagbezgulhswshkhm/Cards_Prefix.pch.gch Cards_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319265270.858937
+e319265273.530596
+r1
+xProcessPCH
+x/var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cards_Prefix-bgcfavopixleagbezgulhswshkhm/Cards_Prefix.pch.gch
+xCards_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Cards_Prefix.pch319265270#319265273#0(0"0(0#0#52"/Users/paigeponzeka/Documents/Cards/Cards_Prefix.pch8616822176#1288"    cd /Users/paigeponzeka/Documents/Cards    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-generated-files.hmap -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-own-target-headers.hmap -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-all-target-headers.hmap -iquote /Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/Cards-project-headers.hmap -F/Users/paigeponzeka/Documents/Cards/build/Debug -I/Users/paigeponzeka/Documents/Cards/build/Debug/include -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/DerivedSources/x86_64 -I/Users/paigeponzeka/Documents/Cards/build/Cards.build/Debug/Cards.build/DerivedSources -c /Users/paigeponzeka/Documents/Cards/Cards_Prefix.pch -o /var/folders/96/96qmz9MkG0KRHltdT2D2m++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cards_Prefix-bgcfavopixleagbezgulhswshkhm/Cards_Prefix.pch.gch0#
+
