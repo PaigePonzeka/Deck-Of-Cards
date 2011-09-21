@@ -26,18 +26,28 @@
 @interface Cards:NSObject
 {
 	int suit; //number based on suit
-	NSString* cardName; //card description
+	NSString* card_name; //card description
 	int rank; //in card to card comparisons for winning hands
 	int value; //such as in Scat
-	int cardNumber;
+	int card_number;
 }
+
 /*setter*/
 -(void) setCard: (int) s: (int) r : (int) cardNum; 
+
 /*Getter*/
 -(NSString*) getCard;
+
+// gets the card defailts
 -(NSString*) getFullCard;
--(NSString*) getSuit;
--(NSString*) getSuitString; //returns the string representation of a suit
+
+// gets suit number
+-(int) getSuit;
+
+//returns the string representation of a suit
+-(NSString*) getSuitString; 
+
+// get the card rank
 -(int) getCardNumber;
 
 

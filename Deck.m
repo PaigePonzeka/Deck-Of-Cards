@@ -1,123 +1,120 @@
+
 //
 //  Deck.m
 //  Cards
 //
 //  Created by Paige Ponzeka on 2/13/11.
-//  Copyright 2011 NYU. All rights reserved.
+//  Copyright 2011. All rights reserved.
 //
 
 #import "Deck.h"
 
 
 @implementation Deck
-//creates a default deck and shuffle it
--(void) createNewDeck{
-	//intialize newDeck array
-	newDeck= [NSMutableArray arrayWithCapacity:53]; 
-	newDeck = [[NSMutableArray alloc] init]; 
+
+//creates a default deck and shuffles it
+-(void) createDeck{
+    
+	//alloc the deck
+	deck= [NSMutableArray arrayWithCapacity:53]; 
+	deck = [[NSMutableArray alloc] init]; 
 	int set=0;
-	//use  loop to create new cards and fill the array
-	for(int s=1; s<=4; s++)
+    /*
+     Uses nested for loops to loop through suits
+     then loop through cards
+     */
+	for(int suit=1; suit<=4; suit++)
 	{
-		for(int r=2; r<=14;r++)
-		{
-			Cards* newCard=[[Cards alloc] init];
-			
-			[newCard setCard: s:r:set];
-			NSString* suit;
-			if(s ==1)
-			{
-				suit=@"Spades";
-			}
-			else if(s==2)
-			{
-				suit=@"Hearts";
-			}
-			else if (s==3)
-			{
-				suit=@"Clubs";
-			}
-			else if (s==4)
-			{
-				suit= @"Diamonds";
-			}
-			//NSLog(@"%@ Of %@, Value: %d",[newCard getFullCard],suit, [newCard getCardNumber] );
-			[newDeck addObject:newCard]; 
+		for(int card=2; card<=14; card++)
+		{   
+            //alloc a new card object and set its data
+			Cards* new_card=[[Cards alloc] init];
+			[new_card setCard: suit :card:set];
+            
+            // set the string name for each suits
+            [deck addObject: new_card]; 
 			set++;
 		}
 		
 	}
+    //shuffling the deck, algorithm could be better, I find running it a few times to be the most sufficient
 	[self KnuthShuffle];
 	[self KnuthShuffle];
 	[self KnuthShuffle];
-	//shuffle the deck
 }
+
 //shuffles the newdeck
 -(void) shuffle{
-	currentPosition=0;
+	current_position=0;
 	//use a shuffle algorithm to rearrange the deck
 }
+
 - (void) KnuthShuffle
 {
-	//Deck* tempDeck=[[Deck alloc] init];
-	currentPosition=0;
-    int rand;
-	int size= ([newDeck count]-1);
-	//NSLog(@"Shuffling Cards...");
+	
+	current_position=0;
+    int random_number;
+	int size= ([deck count]-1);
+	
     for(int i=size;i>0;i--)
     {
+        //generate a random number
+        random_number=arc4random() % size;
+        // create a temporary card
 		Cards *temp=[[Cards alloc] init];
-        rand=arc4random() % size;
-		[newDeck addObject:[newDeck objectAtIndex: rand]];
-		[newDeck removeObjectAtIndex: rand];
+        //switching objects at random number
+		[deck addObject:[deck objectAtIndex: random_number]];
+		[deck removeObjectAtIndex: random_number];
 		[temp release];
-		
 
     }
 	
-	//[self printCards];
 }
+// printing cards, really meant just for debugging
 -(void) printCards
 {
 	NSLog(@"Printing Cards \n");
-	int size=[newDeck count];
+	int size=[deck count];
 	for(int i=0;i<size;i++)
     {
-		NSLog(@"%d %@ Card Value: %d",i,[[newDeck objectAtIndex: i] getFullCard], [[newDeck objectAtIndex: i] getCardNumber]);
+		NSLog(@"%d %@ Card Value: %d",i,[[deck objectAtIndex: i] getFullCard], [[deck objectAtIndex: i] getCardNumber]);
     }
 	
 
 }
 
-//get hand
+//get the current deck of cards
 -(NSMutableArray*) getNewDeck
 {
-	return newDeck;
+	return deck;
 }
+
 //get the next card in the deck
 -(Cards*) getNextCard{
-	//get the card at currentPosition from the deck
+	//get the card at current_position from the deck
 	Cards* card;
-	card = [newDeck objectAtIndex:currentPosition];
+	card = [deck objectAtIndex:current_position];
 	//increase current position
-	currentPosition++;
+	current_position++;
 	//return the card
 	return card;
 }
 
 -(NSString*) getSelectedSuit{
-	return selectedSuit;
+	return selected_suit;
 }
+
 -(NSString*) getSelectedCard{
-	return selectedCard;
+	return selected_card;
 }
+
 -(void) setSelected: (NSString*) suit: (NSString*) card
 {
-	selectedCard=card;
-	selectedSuit=suit;
+	selected_card = card;
+	selected_suit = suit;
 }
 -(void) dealloc {
-	[newDeck release];
+	[deck release];
     [super dealloc];
 }
 @end

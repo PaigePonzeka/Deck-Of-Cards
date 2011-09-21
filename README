@@ -1,2 +1,14 @@
 A Simple deck of cards implemented with Xcode and Objective C.
 Supports a Deck of Card Objects, Shuffles, gets cards information stored in an array.
+
+Each Deck creates and Array of Card Objects.
+Each card has a suit and a type.
+Each card has a power ranking (good for comparing hands)
+Each card has a value (good for games like blackjack)
+A deck can be generated and shuffles, cards can be grabbed from the top of the deck.
+
+This was created on the fly so feel free to use and improve upon it!
+I commented as best I could so hopefully it makes sense to you!
+There's also some same code in the Test.m main method. Once you download the code it should automatically run a new deck for you and pick out the card.
+
+Please see the source code for further comments and instructions.
